@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
     padding: "2px 4px",
     display: "flex",
     alignItems: "center",
-    width: 400,
+    width: 700,
     borderRadius: 50
   },
   input: {
@@ -34,8 +34,8 @@ const SearchField = () => {
     <Paper component="form" className={classes.root}>
       <InputBase
         className={classes.input}
-        placeholder="Search Google Maps"
-        inputProps={{ "aria-label": "search google maps" }}
+        placeholder="Search"
+        inputProps={{ "aria-label": "search" }}
       />
       <IconButton
         type="submit"
